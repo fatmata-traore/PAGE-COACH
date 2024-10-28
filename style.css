@@ -33,6 +33,7 @@ nav {
   align-items: center;
   border-bottom: 1px solid #e5e7eb;
 }
+
 /*-------------------- logo --------------------*/
 
 .logo {
@@ -257,9 +258,4 @@ input {
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
   }
-  nav ul,
-  details,
-  .inscription {
-    display: none;
-  }
-}
+  
