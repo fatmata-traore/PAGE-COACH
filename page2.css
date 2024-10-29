@@ -40,11 +40,11 @@ nav {
 
 .logo {
   width: 50px;
-  height: 40px;
+  height: 50px;
 }
 .logo img {
   width: 80px;
-  height: 40px;
+  height: 55px;
   object-fit: cover;
 }
 /*-------------------- menu --------------------*/
@@ -112,4 +112,22 @@ summary::after {
   width: 25%;
   margin-top: 30px;
   text-align: center;
+  cursor: pointer;
+}
+.card1 {
+  position: absolute;
+  top: 12%;
+  margin-left: 60%;
+  z-index: 0;
+}
+.P5 {
+  font-size: 12px;
+  background: radial-gradient(#e04a3d, rgb(56, 130, 117));
+  width: 40%;
+  padding: 13px;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  top: -70px;
+  left: -140px;
 }
