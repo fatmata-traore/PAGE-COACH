@@ -131,3 +131,7 @@ summary::after {
   top: -70px;
   left: -140px;
 }
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
