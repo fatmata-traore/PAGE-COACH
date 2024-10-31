@@ -49,6 +49,12 @@ nav {
   height: 55px;
   object-fit: cover;
 }
+@media screen and (max-width: 414px) {
+  ul {
+    display: none;
+    visibility: hidden;
+  }
+}
 /*-------------------- menu --------------------*/
 
 nav ul {

@@ -114,6 +114,12 @@ h2 {
 .nav ul li:nth-child(2) {
   list-style: disc;
 }
+@media screen and (max-width: 414px) {
+  ul {
+    display: none;
+    visibility: hidden;
+  }
+}
 .banniere {
   background: url(image/background.png);
   background-size: cover;
