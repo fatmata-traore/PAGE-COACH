@@ -119,6 +119,9 @@ h2 {
     display: none;
     visibility: hidden;
   }
+  .nav ul li:nth-child(1) {
+    display: none;
+  }
 }
 .banniere {
   background: url(image/background.png);
