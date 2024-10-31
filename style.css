@@ -101,6 +101,9 @@ main {
   display: flex;
   gap: 30px;
 }
+h1 {
+  font-size: 20px;
+}
 h2 {
   font-size: 16px;
 }
