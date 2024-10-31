@@ -115,7 +115,7 @@ h2 {
   list-style: disc;
 }
 @media screen and (max-width: 414px) {
-  ul {
+  .MBU {
     display: none;
     visibility: hidden;
   }
@@ -270,5 +270,11 @@ input {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
+  }
+}
+@media screen and (706px) {
+  footer {
+    display: flex;
+    flex-direction: column;
   }
 }
