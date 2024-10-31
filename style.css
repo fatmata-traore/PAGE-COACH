@@ -3,7 +3,8 @@
   margin: 0;
   outline: none;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: Outfit, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   list-style: none;
   /* border: 1px solid red; */
 }
@@ -100,8 +101,8 @@ main {
   display: flex;
   gap: 30px;
 }
-h1 {
-  font-size: 18px;
+h2 {
+  font-size: 16px;
 }
 .nav ul li:nth-child(1) {
   color: #ff9800;
@@ -140,7 +141,7 @@ h1 {
   grid-template-columns: repeat(auto-fill, 340px);
   place-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
 }
 
 /*--------------------------------------------------------- footer ---------------------------------------------------------*/
