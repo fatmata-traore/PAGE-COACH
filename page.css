@@ -130,7 +130,7 @@ i {
 }
 .P5 {
   font-size: 12px;
-  background: radial-gradient(#e04a3d, rgb(56, 130, 117));
+  background: linear-gradient(#e04a3d, rgb(56, 130, 117));
   width: 40%;
   padding: 13px;
   border-radius: 30px;
