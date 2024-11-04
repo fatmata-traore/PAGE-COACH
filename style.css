@@ -129,6 +129,8 @@ h2 {
     /* padding: 5px; */
     border-radius: 10px;
     border: none;
+    width: 5%;
+    height: 2px;
   }
 
   .logo img {
@@ -154,6 +156,19 @@ h2 {
     align-items: center;
     text-align: center;
     border-bottom: 1px solid #e5e7eb;
+  }
+  .banniere {
+    background: url(image/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: -48px;
   }
 }
 .banniere {
