@@ -168,13 +168,14 @@ h4 {
 /* eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeepartie card eeeeeeeeeeeeeeeeeeeeeeeeeee */
 .grid {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   gap: 40px;
-  margin-left: -69%;
+  margin-left: -109%;
   /* font-size: 12px; */
   margin-top: 4%;
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
 .img-p {
   margin-top: 10%;
@@ -183,15 +184,16 @@ h4 {
   border: 2px solid gray;
   border-radius: 15px;
   padding: 20px;
-  width: 190px;
+  /* width: 190px; */
   font-size: 17px;
 }
 .grid2 {
   border: 2px solid gray;
   border-radius: 15px;
   padding: 20px;
-  width: 190px;
+  /* width: 190px; */
   font-size: 17px;
+  margin-top: 20px;
 }
 /* eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeparti3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
 h5 {

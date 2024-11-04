@@ -114,13 +114,46 @@ h2 {
 .nav ul li:nth-child(2) {
   list-style: disc;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 612px) {
   ul {
-    display: none;
-    visibility: hidden;
+    gap: 2px;
+    font-size: 8px;
   }
-  .nav ul li:nth-child(1) {
+
+  .logo {
+    width: 4px;
+  }
+
+  .inscription {
+    /* height: 10px; */
+    /* padding: 5px; */
+    border-radius: 10px;
+    border: none;
+  }
+
+  .logo img {
     display: none;
+  }
+  nav ul li a {
+    font-size: 8px;
+    color: #000;
+    /* transition: all 0.3s; */
+    gap: 2px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: -10px;
+  }
+  nav {
+    background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    font-size: 7px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
   }
 }
 .banniere {
