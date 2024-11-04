@@ -49,10 +49,61 @@ nav {
   height: 55px;
   object-fit: cover;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 612px) {
   ul {
+    gap: 2px;
+    font-size: 8px;
+  }
+
+  .logo {
+    width: 4px;
+  }
+
+  .inscription {
+    /* height: 10px; */
+    /* padding: 5px; */
+    border-radius: 10px;
+    border: none;
+    width: 5%;
+    height: 2px;
+  }
+
+  .logo img {
     display: none;
-    visibility: hidden;
+  }
+  nav ul li a {
+    font-size: 8px;
+    color: #000;
+    /* transition: all 0.3s; */
+    gap: 2px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: -10px;
+  }
+  nav {
+    background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    font-size: 7px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .banniere {
+    background: url(image/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: -48px;
   }
 }
 /*-------------------- menu --------------------*/
@@ -203,19 +254,17 @@ h5 {
   font-size: 22px;
 }
 .container {
-  background-color: ghostwhite;
-  margin-top: -10px;
+  background-color: gray;
+  /* margin-top: -10px; */
 }
 .text-orangebakeli {
   --tw-text-opacity: 1;
   color: rgb(255 152 0 / var(--tw-text-opacity));
   width: 5%;
-  margin-left: 47%;
+  /* margin-left: 47%; */
 }
 .item1 {
   justify-content: center;
   text-align: center;
   align-items: center;
-}
-.les-items {
 }
