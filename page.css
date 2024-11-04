@@ -237,6 +237,7 @@ h4 {
   padding: 20px;
   /* width: 190px; */
   font-size: 17px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 .grid2 {
   border: 2px solid gray;
@@ -245,6 +246,7 @@ h4 {
   /* width: 190px; */
   font-size: 17px;
   margin-top: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 /* eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeparti3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
 h5 {
