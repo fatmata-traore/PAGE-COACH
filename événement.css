@@ -124,19 +124,19 @@ h1 {
 .grid {
   /* width: 100%; */
   display: flex;
-  gap: 10px;
+  gap: 3px;
 }
 
 .card {
   display: flex;
-  width: 70%;
-  gap: 20px;
+  /* width: 70%; */
+  gap: 10px;
   flex-wrap: wrap;
   object-fit: cover;
   margin-left: 10px;
 }
 i {
-  left: 89%;
+  left: 60%;
   top: -19px;
   position: relative;
 }
@@ -153,7 +153,7 @@ i {
 input {
   background-color: rgb(206, 186, 186);
   border: 2px solid rgb(2, 140, 127);
-  padding: 5px;
+  padding: 0x;
 }
 @media screen and (max-width: 612px) {
   ul {
